@@ -3,7 +3,7 @@
 from dotenv import load_dotenv
 import os
 import streamlit as st
-import google.generativeai as genai
+import google.generativeai as genai 
 
 load_dotenv()   ## load all the variables that is defined in .env file
 
