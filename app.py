@@ -23,3 +23,4 @@ if submit_button:
     model = genai.GenerativeModel("gemini-1.5-pro")
     response = model.generate_content(input)
     st.write(response.text)
+
