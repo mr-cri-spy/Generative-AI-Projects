@@ -16,7 +16,7 @@ genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))  ## configure the API key
 
 st.set_page_config(page_title="Crisbee Text Chat Bot", page_icon="🤡")
 
-st.header("Crisbee Chat Bot Web Application")
+st.header("Crisbee Chat Bot Web Application ")
 
 input = st.text_input("Write your question here...",key='input')
 
