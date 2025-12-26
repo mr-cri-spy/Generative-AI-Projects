@@ -1,6 +1,7 @@
 
 
 
+
 #Before this should create the .env file and want to add this : - GOOGLE_API_KEY="your api key which created"
 from dotenv import load_dotenv
 import os
@@ -24,6 +25,7 @@ if submit_button:
     model = genai.GenerativeModel("gemini-1.5-pro")
     response = model.generate_content(input)
     st.write(response.text)
+
 
 
 
